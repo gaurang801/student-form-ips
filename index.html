@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Areca Palm</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+    rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: rgb(11, 11, 60);
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      line-height: 1.6;
+    }
+
+    /* Navigation Bar */
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 20px;
+      background-color: rgba(17, 165, 104, 0.85);
+      flex-wrap: wrap;
+    }
+
+    nav .left {
+      font-size: 2rem;
+      font-weight: bolder;
+    }
+
+    nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+    }
+
+    nav ul li {
+      margin: 0 10px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-size: 1rem;
+    }
+
+    /* First Section */
+    .firstsection {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      margin: 50px auto;
+      padding: 20px;
+      max-width: 1200px;
+    }
+
+    .leftsection {
+      font-size: 2.5rem;
+      flex: 1 1 350px;
+      padding: 20px;
+      font-weight: bold;
+    }
+
+    .rightsection {
+      flex: 1 1 350px;
+      text-align: center;
+    }
+
+    .rightsection img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 10px;
+    }
+
+    .purple {
+      color: rgb(242, 162, 59);
+    }
+
+    #about {
+      font-size: 1rem;
+      margin-top: 15px;
+    }
+
+    .keyfont {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .wiki {
+      color: white;
+      font-size: 1rem;
+      text-decoration: underline;
+    }
+
+    #element {
+      color: yellow;
+    }
+
+    #key {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      nav {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      nav ul {
+        margin-top: 10px;
+      }
+
+      .firstsection {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .leftsection {
+        font-size: 1.6rem;
+        margin: 10px 0;
+      }
+
+      #about {
+        font-size: 0.9rem;
+      }
+
+      .keyfont {
+        font-size: 1.2rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      nav .left {
+        font-size: 1.2rem;
+      }
+
+      nav ul li a {
+        font-size: 0.9rem;
+      }
+
+      .leftsection {
+        font-size: 1.2rem;
+      }
+
+      .rightsection img {
+        max-width: 90%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <div class="left">Areca Palm</div> <br>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#key">Features</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Dypsis_lutescens" target="_blank">More</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="firstsection">
+      <div class="leftsection">
+        <span class="purple">Areca Palm</span>
+        <span id="element"></span>
+        <div id="about">
+          <p><b>Scientific Name:</b> Dypsis lutescens <br>
+            <b>Common Names:</b> Areca Palm, Butterfly Palm, Golden Cane Palm <br>
+            <b>Family:</b> Arecaceae <br>
+            <b>Type:</b> Evergreen Palm <br>
+            <b>Origin:</b> Madagascar <br> </p>
+        </div>
+      </div>
+      <div class="rightsection">
+        <img
+          src="https://rotten-bronze-sxe8zznucs.edgeone.app/IMG_20250801_124820193_HDR.jpg "
+          alt="Areca Palm">
+      </div>
+    </section>
+
+    <section id="key">
+      <b class="keyfont">Key Features</b>
+      <p>
+        <b>🌿 Leaves:</b> Long, feathery fronds with narrow, arching leaflets that give a tropical look.<br>
+        <b>📏 Height:</b> Grows 6–12 feet indoors; up to 20 feet outdoors in tropical areas.<br>
+        <b>☀️ Light Requirement:</b> Prefers bright, indirect sunlight. Can tolerate some shade but avoid harsh direct sun.<br>
+        <b>💧 Watering:</b> Keep soil lightly moist. Allow top inch of soil to dry between watering.<br>
+        <b>🌱 Soil:</b> Well-draining potting mix with peat and sand.<br>
+        <b>🌡️ Temperature:</b> Thrives at 18–24°C. Sensitive to cold below 15°C.<br>
+        <b>💦 Humidity:</b> Prefers moderate to high humidity. Mist leaves occasionally.<br>
+      </p>
+
+      <b class="keyfont">🌱 Care Tips</b>
+      <p>
+        ✔️ Avoid overwatering; root rot is common.<br>
+        ✔️ Wipe fronds gently to remove dust.<br>
+        ✔️ Fertilize monthly during growing season (spring/summer).<br>
+        ✔️ Repot every 2–3 years as the palm outgrows its container.<br>
+        ✔️ Safe for pets 🐶🐱 unlike many other houseplants.<br>
+      </p>
+
+      <a class="wiki" href="https://en.wikipedia.org/wiki/Dypsis_lutescens" target="_blank">View More</a>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <!-- <script>
+    var typed = new Typed('#element', {
+      strings: ['Also Known as Butterfly Palm', '🌴 Air-Purifying Plant'],
+      typeSpeed: 50,
+      backSpeed: 40,
+      
+      loop: true
+    });
+  </script> -->
+
+</body>
+</html>
